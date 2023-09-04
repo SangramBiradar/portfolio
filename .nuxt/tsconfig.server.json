@@ -1,0 +1,88 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "/Users/tanishq_rocks/Desktop/ADResume/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "/Users/tanishq_rocks/Desktop/ADResume/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "/Users/tanishq_rocks/Desktop/ADResume"
+      ],
+      "~/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/*"
+      ],
+      "@": [
+        "/Users/tanishq_rocks/Desktop/ADResume"
+      ],
+      "@/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/*"
+      ],
+      "~~": [
+        "/Users/tanishq_rocks/Desktop/ADResume"
+      ],
+      "~~/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/*"
+      ],
+      "@@": [
+        "/Users/tanishq_rocks/Desktop/ADResume"
+      ],
+      "@@/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/*"
+      ],
+      "assets": [
+        "/Users/tanishq_rocks/Desktop/ADResume/assets"
+      ],
+      "assets/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/assets/*"
+      ],
+      "public": [
+        "/Users/tanishq_rocks/Desktop/ADResume/public"
+      ],
+      "public/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/public/*"
+      ],
+      "pinia": [
+        "/Users/tanishq_rocks/Desktop/ADResume/node_modules/pinia/dist/pinia"
+      ],
+      "#color-mode-options": [
+        "/Users/tanishq_rocks/Desktop/ADResume/.nuxt/color-mode-options"
+      ],
+      "#tailwind-config": [
+        "/Users/tanishq_rocks/Desktop/ADResume/.nuxt/tailwind.config"
+      ],
+      "#tailwind-config/*": [
+        "/Users/tanishq_rocks/Desktop/ADResume/.nuxt/tailwind.config/*"
+      ],
+      "@intlify/shared": [
+        "/Users/tanishq_rocks/Desktop/ADResume/node_modules/@intlify/shared/dist/shared.esm-bundler"
+      ],
+      "@intlify/core-base": [
+        "/Users/tanishq_rocks/Desktop/ADResume/node_modules/@intlify/core-base/dist/core-base.esm-bundler"
+      ],
+      "@intlify/devtools-if": [
+        "/Users/tanishq_rocks/Desktop/ADResume/node_modules/@intlify/devtools-if/dist/devtools-if.esm-bundler"
+      ],
+      "vue-i18n": [
+        "/Users/tanishq_rocks/Desktop/ADResume/node_modules/vue-i18n/dist/vue-i18n.esm-bundler"
+      ]
+    }
+  },
+  "include": [
+    "/Users/tanishq_rocks/Desktop/ADResume/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
